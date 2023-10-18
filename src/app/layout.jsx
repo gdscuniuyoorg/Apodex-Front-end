@@ -1,4 +1,4 @@
-import StoreProvider from "@/store/StoreProvider";
+import StoreProvider from "../store/StoreProvider";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <StoreProvider>
-      <html lang="en">
+      <html lang="en" className="text-black bg-white">
         <body className={inter.className}>{children}</body>
       </html>
     </StoreProvider>

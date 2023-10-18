@@ -1,5 +1,5 @@
 "use client";
-import { decrement, increment } from '@/store/slice'
+import { decrement, increment } from '../store/slice'
 import { useDispatch, useSelector } from "react-redux";
 
 export default function CounterButtons() {
