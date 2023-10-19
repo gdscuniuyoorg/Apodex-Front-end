@@ -21,9 +21,9 @@ const Login = () => {
 
     return (
         <main className="w-screen h-screen center">
-            <div className="w-[85%] h-[100%] center">
-                <div className="w-1/2 h-full" style={{ background: "url(/images/signIn.png)", backgroundPosition: "center center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}></div>
-                <div className="w-1/2 h-full px-16 pt-8 flex items-center">
+            <div className="w-full h-[100%] center">
+                <div className="w-1/2 h-full lg:flex hidden" style={{ background: "url(/images/signIn.png)", backgroundPosition: "center center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}></div>
+                <div className="lg:w-1/2 h-full lg:px-16 px-8 pt-8 flex items-center">
                     <div className="flex-col flex w-full h-full gap-6">
                         <Logo />
                         <div className='flex flex-col gap-4'>
