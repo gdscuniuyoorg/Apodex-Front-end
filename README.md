@@ -15,7 +15,7 @@ This is the front-end repository for the Team Apodex project.
 
 ## Project Type
 
-- FRONT-END_
+- FULL-STACK
 
 ## Getting Started
 
